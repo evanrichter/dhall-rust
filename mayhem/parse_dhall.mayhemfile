@@ -1,0 +1,7 @@
+project: dhall-rust
+target: parse-dhall
+
+cmds:
+  - cmd: /parse_dhall
+  - cmd: /parse_dhall_no_inst @@
+    libfuzzer: false
